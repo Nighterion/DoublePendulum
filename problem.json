@@ -1,0 +1,22 @@
+{
+	"title" : "Double compound pendulum",
+	"segments" : [
+		{
+			"length" : 150,
+			"mass" : 2,
+			"theta" : 1.5707963267948966192313216,
+			"omega" : -1
+		},
+		{
+			"length" : 150,
+			"mass" : 5,
+			"theta" : 1.5707963267948966192313216,
+			"omega" : 0
+		}
+	],
+	"solver" : {
+		"type" : "Euler",
+		"dt" : 0.05,
+		"T" : 20
+	}
+}
